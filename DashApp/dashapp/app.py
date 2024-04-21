@@ -11,7 +11,6 @@ from dash import Dash, html, dash_table, dcc
 
 import plotly.express as px
 import pandas as pd
-import dash_design_kit as ddk
 
 # DataFrame
 df = pd.read_csv('../data/ukpn-flexibility-dispatches.csv')
